@@ -7,7 +7,7 @@ class CountDown extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      bdate: new Date("June 8, 2018 00:00:00").getTime(),
+      bdate: new Date("June 6, 2018 00:00:00").getTime(),
       days: 0,
       hours: 0,
       minutes: 0,
