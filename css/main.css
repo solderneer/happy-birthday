@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
+h1 {
+  font-weight: 100;
+}
+
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -16,10 +20,29 @@ body {
   margin-bottom: 0px;
 }
 
-.big {
-  font-size: 7vh
+.divider {
+  height: 1px;
+  background: #F50057;
 }
 
-.small {
+.typing {
   font-size: 5vh;
 }
+
+.typed-cursor {
+        opacity: 1;
+        animation: blink .7s infinite;
+    }
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
