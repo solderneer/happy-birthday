@@ -1,9 +1,11 @@
 body {
   font-family: 'Roboto Slab', serif;
+  font-size: 18px;
 }
 
 h1 {
   font-weight: 100;
+  color: #E91E63;
 }
 
 .vertical-center {
