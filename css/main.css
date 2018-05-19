@@ -46,3 +46,15 @@ h1 {
     }
 }
 
+.img-circle {
+  border-radius: 49%;
+}
+
+.mt-100 {
+  margin-top: 90px;
+}
+
+.offset-custom {
+  margin-left: 2vw;
+}
+
