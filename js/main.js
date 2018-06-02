@@ -18,5 +18,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 // Helper Functions
 function typeComplete() {
   // Make the rest of the page visible and show arrow
+  var button = document.querySelector("#enterButton");
+  console.log(button);
+  button.hidden = false;
 }
 
