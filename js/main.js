@@ -13,13 +13,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
     onComplete: typeComplete
   }
   var typed = new Typed(".intro-text", options);
-  var button = document.querySelector("#enterButton");
-  button.addEventListener('click', enter);
 });
 
 // Helper Functions
 function typeComplete() {
-  // Make the rest of the page visible and show arrow
+  // Make the rest of the page visible and show 
+  document.querySelector("#enterButton").style.visibility = "visible";
+  document.querySelector("#enterButton").addEventListener('click', enter);
+  document.querySelector("#enterButton").classList.add("animated");
+  document.querySelector("#enterButton").classList.add("fadeIn");
 }
 
 function enter() {
