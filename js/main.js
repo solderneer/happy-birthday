@@ -31,6 +31,13 @@ function enter() {
     document.querySelector('#page2').style.display = "block";
     document.querySelector('#page2').classList.add("animated");
     document.querySelector('#page2').classList.add("bounceInRight");
+
+    var grid = document.querySelector('.grid');
+    var msnry = new Masonry( grid, {
+      // options...
+      itemSelector: '.grid-item',
+      columnWidth: 200
+    });
   }, 700);
 }
 
