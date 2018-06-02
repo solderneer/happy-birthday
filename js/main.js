@@ -21,13 +21,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
 // Helper Functions
 function typeComplete() {
   // Make the rest of the page visible and show arrow
-  var button = document.querySelector("#enterButton");
-  console.log(button);
-  button.style.display = "block";
 }
 
 function enter() {
-  document.querySelector('#page1').style.display = "none";
-  document.querySelector('#page2').style.display = "block";
+  document.querySelector('#page1').classList.add("animated");
+  document.querySelector('#page1').classList.add("bounceOutLeft");
+  setTimeout(function() {
+    //your code to be executed after 1 
+    document.querySelector('#page1').style.display = "none";
+    document.querySelector('#page2').style.display = "block";
+    document.querySelector('#page2').classList.add("animated");
+    document.querySelector('#page2').classList.add("bounceInRight");
+  }, 700);
 }
 
