@@ -13,14 +13,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
     onComplete: typeComplete
   }
   var typed = new Typed(".intro-text", options);
-
-  var trigger = document.querySelector("#enterButton");
-  trigger.addEventListener('click', enter);
 });
 
 // Helper Functions
 function typeComplete() {
   // Make the rest of the page visible and show arrow
+<<<<<<< HEAD
 }
 
 function enter() {
@@ -33,5 +31,19 @@ function enter() {
     document.querySelector('#page2').classList.add("animated");
     document.querySelector('#page2').classList.add("bounceInRight");
   }, 700);
+||||||| 4130037... removed stuff
+  var button = document.querySelector("#enterButton");
+  console.log(button);
+  button.style.display = "block";
+}
+
+function enter() {
+  document.querySelector('#page1').style.display = "none";
+  document.querySelector('#page2').style.display = "block";
+=======
+  var button = document.querySelector("#enterButton");
+  console.log(button);
+  button.hidden = false;
+>>>>>>> parent of 4130037... removed stuff
 }
 
