@@ -48,6 +48,10 @@ h1 {
     }
 }
 
+.offset-button {
+  position: relative;
+  top: 50px;
+}
 .img-circle {
   border-radius: 49%;
 }
