@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <!-- Custom -->
-    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/main.css"/>
     <title>Jasmine's Birthday</title>
   </head>
@@ -34,8 +34,20 @@
         </div>
       </div>
     </div>
-    <div id="page2" style="display: none;">
-      Hello World
+    <div id="page2" class="container justify-content-center" style="display: block;">
+      <div class="m-p-g">
+        <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+          <img src="assets/test.jpg" class="m-p-g__thumbs-img pic" />
+          <img src="assets/test.jpg" class="m-p-g__thumbs-img pic" />
+          <img src="assets/test.jpg" class="m-p-g__thumbs-img pic" />
+          <img src="assets/test.jpg" class="m-p-g__thumbs-img pic" />
+          <img src="assets/test.jpg" class="m-p-g__thumbs-img pic" />
+          <img src="assets/test.jpg" class="m-p-g__thumbs-img pic" />
+          <img src="assets/test.jpg" class="m-p-g__thumbs-img pic" />
+        </div>
+
+        <div class="m-p-g__fullscreen"></div>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
@@ -46,7 +58,7 @@
     <!-- Typed.js -->
     <script src="js/typed.min.js"></script>
     <!-- Custom Javascript -->
-    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+    <script src="js/material-photo-gallery.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
