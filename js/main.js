@@ -13,6 +13,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     onComplete: typeComplete
   }
   var typed = new Typed(".intro-text", options);
+
+  var trigger = document.querySelector("#enterButton");
+  trigger.addEventListener('click', enter);
 });
 
 // Helper Functions
@@ -20,6 +23,11 @@ function typeComplete() {
   // Make the rest of the page visible and show arrow
   var button = document.querySelector("#enterButton");
   console.log(button);
-  button.hidden = false;
+  button.style.display = "block";
+}
+
+function enter() {
+  document.querySelector('#page1').style.display = "none";
+  document.querySelector('#page2').style.display = "block";
 }
 
