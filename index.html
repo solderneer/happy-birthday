@@ -35,17 +35,25 @@
       </div>
     </div>
     <div id="page2" class="container justify-content-center" style="display: block;">
-      <div class="m-p-g">
+      <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200}'>
+        <!--
         <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
-          <img src="assets/gladys.png" class="m-p-g__thumbs-img pic" style="height: 250px;"/>
-          <img src="assets/varsha.png" class="m-p-g__thumbs-img pic" style="height: 250px;"/>
-          <img src="assets/jw.png" class="m-p-g__thumbs-img pic" style="height: 250px;"/>
-          <img src="assets/madhu.png" class="m-p-g__thumbs-img pic" style="height: 250px;"/>
-          <img src="assets/daeun.png" class="m-p-g__thumbs-img pic" style="height: 250px;"/>
-          <img src="assets/rj.png" class="m-p-g__thumbs-img pic"  style="height: 250px;"/>
+          <img src="assets/gladys.png" class="m-p-g__thumbs-img pic" style="height: "/>
+          <img src="assets/varsha.png" class="m-p-g__thumbs-img pic" style="height: 30vw;"/>
+          <img src="assets/jw.png" class="m-p-g__thumbs-img pic" style="height: 30vw;"/>
+          <img src="assets/madhu.png" class="m-p-g__thumbs-img pic" style="height: 30vw;"/>
+          <img src="assets/daeun.png" class="m-p-g__thumbs-img pic" style="height: 30vw;"/>
+          <img src="assets/rj.png" class="m-p-g__thumbs-img pic"  style="height: 30vw;"/>
         </div>
 
-        <div class="m-p-g__fullscreen"></div>
+        <div class="m-p-g__fullscreen"></div>-->
+          <div class="grid-sizer"></div>
+          <img src="assets/gladys.png" class="grid-item pic"/>
+          <img src="assets/varsha.png" class="grid-item pic"/>
+          <img src="assets/jw.png" class="grid-item pic"/>
+          <img src="assets/madhu.png" class="grid-item pic"/>
+          <img src="assets/daeun.png" class="grid-item pic"/>
+          <img src="assets/rj.png" class="grid-item pic"/>
       </div>
     </div>
 
@@ -57,7 +65,8 @@
     <!-- Typed.js -->
     <script src="js/typed.min.js"></script>
     <!-- Custom Javascript -->
-    <script src="js/material-photo-gallery.js"></script>
+    <!--<script src="js/material-photo-gallery.js"></script>-->
+    <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
