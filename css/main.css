@@ -107,8 +107,9 @@ h1 {
   margin: 0 auto;
 }
 .grid-sizer,
-.grid-item { width: 300PX; }
+.grid-item { width: 300px; }
+.grid-item:hover { filter: brightness(110%); }
 /* 2 columns wide */
-.grid-item--width2 { width: 40%; }
+.grid-item--width2 { width: 75%; }
 
 
