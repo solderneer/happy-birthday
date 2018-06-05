@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var options ={
     strings: ["Hi ^500Jasmine^500",
               "^500It's your special day today! ^500",
-              "^500I'm here to make this day extra special for you :3 ^500",
+              "^500You're turning 18!! And we're so ^500",
               "^500So stop waiting and scroll down already XD ^500"],
     typeSpeed: 50,
     smartBackspace: true,

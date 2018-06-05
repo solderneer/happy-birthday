@@ -115,6 +115,10 @@ h1 {
 .header1 {
   margin: 20px auto;
   margin-top: 30px;
+  margin-left: 9vw;
+  font-size: 50px;
+  background:  #E91E63;
+  color: rgba(255, 255, 255, 1.0)
 }
 
 
