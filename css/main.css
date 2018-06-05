@@ -107,7 +107,7 @@ h1 {
   margin: 0 auto;
 }
 .grid-sizer,
-.grid-item { width: 200px; }
+.grid-item { width: 300PX; }
 /* 2 columns wide */
 .grid-item--width2 { width: 40%; }
 

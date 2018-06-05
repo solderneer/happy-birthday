@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <!-- Custom -->
-    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/lity.min.css">
     <link rel="stylesheet" href="css/main.css"/>
     <title>Jasmine's Birthday</title>
   </head>
@@ -34,8 +34,8 @@
         </div>
       </div>
     </div>
-    <div id="page2" class="container justify-content-center" style="display: block;">
-      <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200, "fitWidth": true}'>
+    <div id="page2" class="container-fluid justify-content-center" style="display: none;">
+      <div class="grid">
         <!--
         <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
           <img src="assets/gladys.png" class="m-p-g__thumbs-img pic" style="height: "/>
@@ -47,13 +47,25 @@
         </div>
 
         <div class="m-p-g__fullscreen"></div>-->
-          <div class="grid-sizer"></div>
-          <img src="assets/gladys.png" class="grid-item pic"/>
+          <a href="assets/gladys.mov" data-lity><img src="assets/gladys.png" class="grid-item pic"/></a>
+          <a href="assets/varsha.mov" data-lity><img src="assets/varsha.png" class="grid-item pic"/></a>
+          <a href="assets/jw.mp4" data-lity><img src="assets/jw.png" class="grid-item pic"/></a>
+          <a href="assets/madhu.mov" data-lity><img src="assets/madhu.png" class="grid-item pic"/></a>
+          <a href="assets/gladys.mov" data-lity><img src="assets/daeun.png" class="grid-item pic"/></a>
+          <a href="assets/rj.mp4" data-lity><img src="assets/rj.png" class="grid-item pic"/></a>
+          <a href="assets/gladys.mov" data-lity><img src="assets/tw.png" class="grid-item pic"/></a>
+          <a href="assets/glenda.mp4" data-lity><img src="assets/glenda.png" class="grid-item pic"/></a>
+          <a href="assets/whathisname.mov" data-lity><img src="assets/whathisname.png" class="grid-item pic"/></a>
+
+          <!--
           <img src="assets/varsha.png" class="grid-item pic"/>
           <img src="assets/jw.png" class="grid-item pic"/>
           <img src="assets/madhu.png" class="grid-item pic"/>
           <img src="assets/daeun.png" class="grid-item pic"/>
           <img src="assets/rj.png" class="grid-item pic"/>
+          <img src="assets/tw.png" class="grid-item pic"/>
+          <img src="assets/glenda.png" class="grid-item pic"/>
+          <img src="whathisname.png" class="grid-item pic"/>-->
       </div>
     </div>
 
@@ -64,6 +76,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <!-- Typed.js -->
     <script src="js/typed.min.js"></script>
+    <script src="js/lity.min.js"></script>
     <!-- Custom Javascript -->
     <!--<script src="js/material-photo-gallery.js"></script>-->
     <script src="js/masonry.pkgd.min.js"></script>

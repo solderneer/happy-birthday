@@ -36,9 +36,10 @@ function enter() {
 
     var grid = document.querySelector('.grid');
     var msnry = new Masonry( grid, {
-      // options...
+      columnWidth: 300,
       itemSelector: '.grid-item',
-      columnWidth: 200
+      fitWidth: true,
+      gutter: 0
     });
   }, 700);
 }
