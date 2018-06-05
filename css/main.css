@@ -110,15 +110,91 @@ h1 {
 .grid-item { width: 300px; }
 .grid-item:hover { filter: brightness(110%); }
 /* 2 columns wide */
-.grid-item--width2 { width: 75%; }
+.grid-item--width2 { width: 600px; }
 
 .header1 {
   margin: 20px auto;
   margin-top: 30px;
-  margin-left: 9vw;
+  margin-bottom: 0px;
   font-size: 50px;
-  background:  #E91E63;
-  color: rgba(255, 255, 255, 1.0)
+}
+
+.subtext {
+  margin: 0px auto;
+  margin-bottom: 20px;
+  color: #C2185B;
+  font-size: 20px;
+}
+
+.bg-pink {
+  color: #E91E63;
+  background-color: #FAFAFA;
+  height: 60px;
+  margin-top: 20px;
+  padding: 15px;
 }
 
 
+@-webkit-keyframes heartbeat {
+  0% {
+    -webkit-transform:scale(1)
+  }
+  50% {
+    -webkit-transform:scale(1.2)
+  }
+  100% {
+    -webkit-transform:scale(1)
+  }
+}
+
+@-moz-keyframes heartbeat {
+  0% {
+    -moz-transform:scale(1)
+  }
+  50% {
+    -moz-transform:scale(1.2)
+  }
+  100% {
+    -moz-transform:scale(1)
+  }
+}
+
+@-o-keyframes heartbeat {
+  0% {
+    -o-transform:scale(1)
+  }
+  50% {
+    -o-transform:scale(1.2)
+  }
+  100% {
+    -o-transform:scale(1)
+  }
+}
+
+a { color: inherit; } 
+
+a:hover {color: inherit;}
+
+@keyframes heartbeat {
+  0% {
+    transform:scale(1)
+  }
+  50% {
+    transform:scale(1.2)
+  }
+  100% {
+    transform:scale(1)
+  }
+}
+
+.heartbeat {
+  -webkit-animation-name: heartbeat;
+  -moz-animation-name: heartbeat;
+  -o-animation-name: heartbeat;
+  animation-name: heartbeat;
+}
+
+.animate-infinite-heartbeat {
+  -webkit-animation: heartbeat 2s infinite;
+  animation: heartbeat 2s infinite;
+}

@@ -3,10 +3,10 @@
 document.addEventListener("DOMContentLoaded", function(event) {
   // Typing for main page
   var options ={
-    strings: ["Hi ^500Jasmine^500",
-              "^500It's your special day today! ^500",
-              "^500You're turning 18!! And we're so ^500",
-              "^500So stop waiting and scroll down already XD ^500"],
+    strings: ["Hi Jasmine^500",
+              "^500It's your special day today!!!^500",
+              "^500We wanted to show you how much you really mean to us^500",
+              "^500So...^500 we made this for you,^500 hope you like it ♡^500"],
     typeSpeed: 50,
     smartBackspace: true,
     backSpeed: 30,
