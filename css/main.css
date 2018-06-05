@@ -23,7 +23,7 @@ h1 {
 }
 
 .divider {
-  height: 1px;
+  height: 5px;
   background: #F50057;
 }
 
@@ -111,5 +111,10 @@ h1 {
 .grid-item:hover { filter: brightness(110%); }
 /* 2 columns wide */
 .grid-item--width2 { width: 75%; }
+
+.header1 {
+  margin: 20px auto;
+  margin-top: 30px;
+}
 
 
